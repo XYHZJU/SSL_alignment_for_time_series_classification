@@ -1,0 +1,19 @@
+name: xieyuhan_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - black
+  - ipython
+  - isort
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - pylint
+  - seaborn
+  - scikit-learn
+  - pip:
+      - --editable .
+prefix: /opt/anaconda3/envs/xieyuhan_env
